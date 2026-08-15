@@ -6,12 +6,14 @@ import { RouterProvider } from "react-router/dom";
 import Home from './Pages/Home';
 
 function App() {
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />
-  },
-]);
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />
+    },
+  ], {
+    basename: "/Jacket-Website/"
+  });
   return (
     <>
        <RouterProvider router={router} />
