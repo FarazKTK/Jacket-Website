@@ -58,3 +58,8 @@
   animation: border4 2s linear infinite;
   animation-delay: 1s;
 }
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
